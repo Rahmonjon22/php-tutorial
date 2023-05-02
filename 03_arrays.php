@@ -29,7 +29,7 @@ $hex = [
     'blue' => '#00f',
 ];
 
-echo $hex['red']; // => #f00
+// echo $hex['red']; // => #f00
 // var_dump($hex);
 // print_r($hex)
 
@@ -43,12 +43,12 @@ echo $hex['red']; // => #f00
 // Single person
 $person1 = [
     'first_name' => 'Brad',
-    'last_name' => 'Traversy',
+    'last_name' => 'Traverse',
     'email' => 'brad@gmail.com',
 ];
 
 // Array of people
-/*
+
 $people = [
     $person1, //   [...$person1]
     [
@@ -61,7 +61,16 @@ $people = [
         'last_name' => 'Doe',
         'email' => 'jane@gmail.com',
     ],
+    [
+        'first_name' => 'Abdurahmon',
+        'last_name' => 'Ibragimov',
+        'email' => 'abdurahmon@gmail.com',
+    ],
 ];
+echo $people[3]['email'];
+ var_dump(json_encode($people));
+// var_dump(json_decode($people));
+/*
 */
 ?>
 
